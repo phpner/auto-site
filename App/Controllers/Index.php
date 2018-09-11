@@ -6,7 +6,7 @@ class Index extends MainController
 {
     function home(){
 
-        echo $this->getView('home1');
+        return $this->getView('home',['ar' => ['onfe'=>"jklji"]]);
     }
 
 }
