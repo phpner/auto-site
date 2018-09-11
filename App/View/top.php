@@ -19,9 +19,10 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Пневмобаллоны в пружины от MRoad – это доступный аналог пневматической подвески. Здесь вы можете купить пневмобаллоны в пружины для защиты задней подвески и роста клиренса.">
-    <meta name="keywords" content="пневмобаллоны, купить пневмобаллоны, пневмобаллоны в пружины, купить пневмобаллоны в пружины, mroad">
-    <title>Купить пневмобаллоны в пружины MRoad по цене начала продаж</title>
+    <meta name="description" content="<?php echo $description ?>">
+    <meta name="keywords" content="<?php echo $keywords?>">
+    <title><?php echo $title?></title>
+
     <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -29,6 +30,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css">
     <link rel="stylesheet" href="/public/fonts/gotham-pro/GothamPro-font.css">
     <link rel="stylesheet" href="/public/css/index.css">
+    <link rel="stylesheet" href="/public/css/mycss.css">
 </head>
 <body>
 <noscript>
@@ -90,7 +92,8 @@
     <section class="section section_menu">
         <div class="section__wrapper section__wrapper_menu">
             <nav class="menu">
-                <a class="logo logo_menu" href="../default.htm"></a>
+                <a class="logo logo_menu" href="/"></a>
+                <img class="logo-2" src="/public/images/logo-2.png" alt="">
                 <div class="menu__header">
                     <button class="menu__toggle" toggle="false"><span class="menu__icon-bar"></span><span class="menu__icon-bar"></span><span class="menu__icon-bar"></span></button>
                 </div>
@@ -122,7 +125,7 @@
                 <div class="block-1">
                     <div class="block-1-content">
                         <div class="block-1-content__title">
-                            <h1 class="title-product text">ПНЕВМОБАЛЛОНЫ В ПРУЖИНЫ ОТ MROAD</h1>- ЭТО <span class="text text_allotted text_allotted-background">УВЕЛИЧЕНИЕ КЛИРЕНСА</span>С ВОЗМОЖНОСТЬЮ РЕГУЛИРОВКИ И НОВЫЙ УРОВЕНЬ КОМФОРТА НА ПРЕЖНЕМ АВТОМОБИЛЕ</div>
+                            <h1 class="title-product text"><?php echo $h1 ?></h1> - ЭТО <span class="text text_allotted text_allotted-background">УВЕЛИЧЕНИЕ КЛИРЕНСА</span>С ВОЗМОЖНОСТЬЮ РЕГУЛИРОВКИ И НОВЫЙ УРОВЕНЬ КОМФОРТА НА ПРЕЖНЕМ АВТОМОБИЛЕ</div>
                         <div class="block-1-content__image block-1-content__image_mobile"></div>
                         <ul class="list block-1-content__list">
                             <li class="list__item list__item_arrow">
@@ -149,7 +152,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="block-1__ballon"><img class="block-1__ballon-image" src="images/image-44.png" alt="" role="presentation" /></div>
+                    <div class="block-1__ballon"><img class="block-1__ballon-image" src="/public/images/image-44.png" alt="" role="presentation" /></div>
                 </div>
             </div>
         </div>
@@ -157,5 +160,5 @@
     <!-- end header-->
 
     <?php
-require_once 'bottom.php';
+require_once 'footer.php';
 ?>
