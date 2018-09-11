@@ -19,7 +19,7 @@ $router->get('/hello/(\w+)', function ($name) {
 });
 
 // Dynamic route: /ohai/name/in/parts
-$router->get('/(\w+-?\w+)(.htm?)?$', 'App\Controllers\PagesAuto@HomeAuto');
+$router->get('/(\w+?[0-9]?-?\w+).(htm|html|php)$', 'App\Controllers\PagesAuto@HomeAuto');
 
 
 

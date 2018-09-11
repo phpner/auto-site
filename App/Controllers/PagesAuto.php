@@ -27,7 +27,7 @@ class PagesAuto extends MainController
 
          if (!$res  )
         {
-            return $this->get404();
+            echo $this->getError("В базе нет данных для этого урла");
             exit();
         }
 

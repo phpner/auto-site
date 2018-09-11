@@ -65,6 +65,15 @@ body {
   margin-bottom: -75px
 }
 
+.section_block-list{
+    background: #fff;
+    text-align: center;
+}
+.section_block-list a{
+    color: #b0b0b0;
+    display: inline-block;
+    margin: 3px;
+}
 .block-11 {
   margin: 20px -10px 0;
   text-align: center
@@ -1201,6 +1210,10 @@ body {
 .section__content {
   padding-top: 60px;
   padding-bottom: 90px
+}
+
+.section__content-no-top{
+    padding-bottom: 90px
 }
 
 .section__body {

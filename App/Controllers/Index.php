@@ -8,12 +8,10 @@ class Index extends MainController
 
         $q = $this->db()->quote('/');
 
-        $sql = "SELECT * FROM pages WHERE slug =   $q ;";
+        $sql = "SELECT * FROM pages WHERE slug =   $q ";
 
 
         $stmt = $this->db()->query( $sql) or die('Ошибка в запросе!');
-
-
 
 
         $res = $stmt->fetch(\PDO::FETCH_ASSOC);

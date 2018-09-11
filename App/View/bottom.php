@@ -12,9 +12,9 @@
                 <div class="block-footer__column block-footer__column_middle block-footer__column_desktop">
                     <div class="block-footer__logo-wrap"><img class="logo" src="/public/images/logo-footer.png" alt="" role="presentation" /></div>
                     <p>
-                        <a href="../../vk.com/mroad.russia" target="_blank"><img src="/public/images/vk.svg" alt=""></a>
-                        <a href="../../facebook.com/mroad.russia" target="_blank"><img src="/public/images/face.svg" alt=""></a>
-                        <a href="../../instagram.com/mroad.russia" target="_blank"><img src="/public/images/inst.svg" alt=""></a>
+                        <a href="https://vk.com/mroad.russia" target="_blank"><img src="/public/images/vk.svg" alt=""></a>
+                        <a href="https://facebook.com/mroad.russia" target="_blank"><img src="/public/images/face.svg" alt=""></a>
+                        <a href="https://instagram.com/mroad.russia" target="_blank"><img src="/public/images/inst.svg" alt=""></a>
                     </p>
                     <p>Copyright © 2018 MRoad Ltd.</p>
                     <p>Все права защищены.</p>

@@ -8,7 +8,8 @@ class HanderErrors
      */
     public function errors($errror)
     {
-        return $errror;
+        require_once "/View/errors.php";
+
     }
     public function errors404()
     {

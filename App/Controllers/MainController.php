@@ -51,4 +51,8 @@ class MainController{
     {
         return (new App\HanderErrors())->errors404();
     }
+    public function getError($param)
+    {
+        return (new App\HanderErrors())->errors($param);
+    }
 }
