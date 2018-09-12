@@ -18,7 +18,7 @@ $(document).ready(function() {
 
     var options = {
         form: 'form',
-        url: 'php/order.php',
+        url: '/order.php',
         phone: {
             el: 'input[name="phone"]',
             mask: '+7 (999) 999-99-99[9]',

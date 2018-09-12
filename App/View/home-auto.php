@@ -69,6 +69,12 @@ require 'zachti.php';
 require_once "recommendations.php";
 
 /**
+ * Видео
+ */
+
+require_once 'video.php';
+
+/**
  * ЗАЩИТИ СВОЮ ПОДВЕСКУ
  */
 

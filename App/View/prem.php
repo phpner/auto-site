@@ -7,7 +7,7 @@
                     <div class="block-5-content__row">
                         <div class="block-5-content__column">
                             <div class="block-5-element">
-                                <div class="block-5-element__image-wrap"><img class="block-5-element__image" src="/public/images/image-29.png" alt="" role="presentation" /></div>
+                                <div class="block-5-element__image-wrap"><img class="block-5-element__image" src="/public/images/image-29.png" alt="<?php echo $alt1?>" role="presentation" /></div>
                                 <div class="block-5-element__content">
                                     <p class="block-5-element__title"><span class="text text_allotted">Комфорт и спокойствие</span></p>
                                     <p class="block-5-element__text">Пневмоподушки демпфируют большинство колебаний, улучшая амортизацию. Это означает спокойное и комфортное вождение для Вас.</p>
@@ -16,7 +16,7 @@
                         </div>
                         <div class="block-5-content__column">
                             <div class="block-5-element">
-                                <div class="block-5-element__image-wrap"><img class="block-5-element__image" src="/public/images/image-30.png" alt="" role="presentation" /></div>
+                                <div class="block-5-element__image-wrap"><img class="block-5-element__image" src="/public/images/image-30.png" alt="<?php echo $alt2?>" role="presentation" /></div>
                                 <div class="block-5-element__content">
                                     <p class="block-5-element__title"><span class="text text_allotted">Автомобиль не проседает при нагрузке</span></p>
                                     <p class="block-5-element__text">Вы можете полностью загрузить машину, при этом дорожный просвет полностью сохраняется.</p>
@@ -27,7 +27,7 @@
                     <div class="block-5-content__row">
                         <div class="block-5-content__column">
                             <div class="block-5-element">
-                                <div class="block-5-element__image-wrap"><img class="block-5-element__image" src="/public/images/image-31.png" alt="" role="presentation" /></div>
+                                <div class="block-5-element__image-wrap"><img class="block-5-element__image" src="/public/images/image-31.png" alt="<?php echo $alt3?>" role="presentation" /></div>
                                 <div class="block-5-element__content">
                                     <p class="block-5-element__title"><span class="text text_allotted">Максимальный подъем клиренса</span></p>
                                     <p class="block-5-element__text">В зависимости от характеристик Вашей ходовой части и степени накачки баллона, дорожный просвет автомобиля увеличивается от 3 до 7см.</p>
@@ -36,7 +36,7 @@
                         </div>
                         <div class="block-5-content__column">
                             <div class="block-5-element">
-                                <div class="block-5-element__image-wrap"><img class="block-5-element__image" src="/public/images/image-32.png" alt="" role="presentation" /></div>
+                                <div class="block-5-element__image-wrap"><img class="block-5-element__image" src="/public/images/image-32.png" alt="<?php echo $alt4?>" role="presentation" /></div>
                                 <div class="block-5-element__content">
                                     <p class="block-5-element__title"><span class="text text_allotted">Защита от пробоев подвески</span></p>
                                     <p class="block-5-element__text">Пневмоэлементы защищают от пробоев при наезде на ямы, неровности, берегут ее от разрушения на разбитых дорогах.</p>

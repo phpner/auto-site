@@ -9,7 +9,7 @@ $router->set404(function () {
 });
 
 
-// Static route: / (homepage)
+// Главная страница
 $router->get('/', 'App\Controllers\Index@home');
 
 
@@ -26,7 +26,13 @@ $router->get('/politic.html', function () {
 
 });
 
-// Dynamic route: /ohai/name/in/parts
+$router->get('thankYou.html', function () {
+
+    return require_once __DIR__."/App/View/thankYou.html";
+
+});
+
+// Страницы марок и моделей
 $router->get('/(.*).(htm|html|php)$', 'App\Controllers\PagesAuto@HomeAuto');
 
 

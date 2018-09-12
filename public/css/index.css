@@ -468,8 +468,8 @@ body {
 }
 
 .block-footer__column_left {
-  width: 50%;
-  margin-right: -16.666666666666664%
+  width: 32%;
+  text-align: center;
 }
 
 .block-footer__column_middle {
@@ -479,7 +479,7 @@ body {
 
 .block-footer__column_right {
   width: 33.33333333333333%;
-  text-align: right
+  text-align: center;
 }
 
 .block-footer__link {
@@ -1439,6 +1439,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  align-items: center;
 }
 
 
