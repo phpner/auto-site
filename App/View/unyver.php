@@ -6,6 +6,10 @@
                 <div class="block-12">
                     <div class="block-12__column block-12__column_left">
                         <div class="block-12__article block-12__article_first">
+                            <?php
+                            if (isset($img_path)) {
+                                echo "<img class='logo-in-models' src='$img_path'' alt=''>";
+                            } ?>
                             <p class="block-12__title"><span class="text text_allotted">Пневмоподушки MRoad</span></p>
                             <p class="block-12__content">универсальны и подходят на сотни моделей автомобилей как отечественного, так и импортного производства, в разные типы подвесок у которых внутреннее пространство пружины свободно. Универсальные пневмобаллоны MRoad подходят для установки во все типы пружин: цилиндр, конус, овал.</p>
                         </div>

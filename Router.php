@@ -27,7 +27,7 @@ $router->get('/politic.html', function () {
 });
 
 // Dynamic route: /ohai/name/in/parts
-$router->get('/(\w+?[0-9]?-?\w+).(htm|html|php)$', 'App\Controllers\PagesAuto@HomeAuto');
+$router->get('/(.*).(htm|html|php)$', 'App\Controllers\PagesAuto@HomeAuto');
 
 
 

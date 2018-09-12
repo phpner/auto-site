@@ -1440,6 +1440,14 @@ body {
   flex-flow: row wrap;
   justify-content: center;
 }
+
+
+.logo-in-models{
+  position: absolute;
+  top: 50px;
+  right: 19px;
+}
+
 @media screen and (max-width:1400px) {
   .section_block-1 {
     background-position: -150px 0
@@ -1799,6 +1807,16 @@ body {
   }
   .buff-and-text__price-and-button, .block-1-content__price-and-button{
     text-align: center;
+  }
+
+  .logo-in-models {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-bottom: 31px;
+    margin-top: -20px;
+    top: 0;
+    right: 0;
   }
 
 }

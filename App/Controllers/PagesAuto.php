@@ -16,8 +16,9 @@ class PagesAuto extends MainController
     public function HomeAuto($param,$pr)
     {
 
-        $q = $this->db()->quote($param);
-        $sql = "SELECT * FROM pages WHERE slug =   $q ";
+        $q = preg_replace('/%20/',' ',$param);
+
+        $sql = "SELECT * FROM pages WHERE slug =   '$q' ";
 
 
         $stmt = $this->db()->query( $sql) or die('Ошибка в запросе!');

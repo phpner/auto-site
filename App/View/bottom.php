@@ -4,19 +4,18 @@
         <div class="block block-footer">
             <div class="block-footer__content">
                 <div class="block-footer__column block-footer__column_left">
-                    <p>Нижний Новгород</p>
-                    <p>Малая Ямская, 18/4</p>
-                    <p>info@mroad.company</p><a class="block-footer__link button-show-popup-info" href="#">Информация о юридическом лице</a>
-                    <p>Часы работы магазина: с 9:00 до 21:00 по мск</p>
+                    <p>Санкт-Петербург</p>
+                    <p>Бассейная, д.38</p>
+                    <p>Время работы: ежедневно с 09.00 - 20.00</p>
                 </div>
                 <div class="block-footer__column block-footer__column_middle block-footer__column_desktop">
-                    <div class="block-footer__logo-wrap"><img class="logo" src="/public/images/logo-footer.png" alt="" role="presentation" /></div>
+                    <div class="block-footer__logo-wrap"><img class="logo" src="/public/images/logo-2.png" alt="" role="presentation" /></div>
                     <p>
-                        <a href="https://vk.com/mroad.russia" target="_blank"><img src="/public/images/vk.svg" alt=""></a>
+                        <a href="https://vk.com/avtoservis_sto_spb" target="_blank"><img src="/public/images/vk.svg" alt=""></a>
                         <a href="https://facebook.com/mroad.russia" target="_blank"><img src="/public/images/face.svg" alt=""></a>
                         <a href="https://instagram.com/mroad.russia" target="_blank"><img src="/public/images/inst.svg" alt=""></a>
                     </p>
-                    <p>Copyright © 2018 MRoad Ltd.</p>
+                    <p>Copyright © 2018 АС-Моторс</p>
                     <p>Все права защищены.</p>
                 </div>
                 <div class="block-footer__column block-footer__column_right">
