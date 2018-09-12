@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,11 +17,9 @@
     <link rel="stylesheet" href="/public/css/mycss.css">
 </head>
 <body>
-<noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html@id=GTM-5T9XT2R" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
+
 <div class="cap"></div>
-<div class="popup popup-info">
+<!--<div class="popup popup-info">
     <div class="popup__form"><span class="ion-ios-close-empty popup__button-close button-close-popup"></span>
         <p class="section-title popup__title">ИНФОРМАЦИЯ
             <br>О ЮРИДИЧЕСКОМ ЛИЦЕ</p>
@@ -32,7 +29,7 @@
             <p class="popup__text-line"><span class="text">ИНН 5262350925</span></p>
         </div>
     </div>
-</div>
+</div>-->
 <div class="popup popup-conditions">
     <div class="popup__form"><span class="ion-ios-close-empty popup__button-close button-close-popup"></span>
         <p class="section-title popup__title">УСЛОВИЯ ГАРАНТИИ</p>
@@ -78,7 +75,7 @@
         <div class="section__wrapper section__wrapper_menu">
             <nav class="menu">
                 <a class="logo logo_menu" href="/"></a> <span id="plus">+</span>
-                <img class="logo-2" src="/public/images/logo-2.png" alt="">
+                <img class="logo-2" src="/public/images/logo-2.jpg" alt="">
                 <div class="menu__header">
                     <button class="menu__toggle" toggle="false"><span class="menu__icon-bar"></span><span class="menu__icon-bar"></span><span class="menu__icon-bar"></span></button>
                 </div>
@@ -96,7 +93,7 @@
                         <div class="menu__phone">
                             <p class="phone"><span class="ion-ios-telephone-outline phone__icon phone__icon_menu"></span><span class="phone__phone-number">+7 (812) 602-78-01</span></p>
                         </div>
-                        <p>info@mroad.company</p>
+
                     </div>
                 </div>
             </nav>
@@ -110,7 +107,13 @@
                 <div class="block-1">
                     <div class="block-1-content">
                         <div class="block-1-content__title">
-                            <h1 class="title-product text"><?php echo $h1 ?></h1> - ЭТО <span class="text text_allotted text_allotted-background">УВЕЛИЧЕНИЕ КЛИРЕНСА</span>С ВОЗМОЖНОСТЬЮ РЕГУЛИРОВКИ И НОВЫЙ УРОВЕНЬ КОМФОРТА НА ПРЕЖНЕМ АВТОМОБИЛЕ</div>
+                            <h1 class="title-product text"><?php echo $h1 ?></h1>
+                            <?php if ($description2){?>
+                                <p class="descrip-footer">
+                                    <?php echo $description2; ?>
+                                </p>
+                            <?php }?>
+                            - ЭТО <span class="text text_allotted text_allotted-background">УВЕЛИЧЕНИЕ КЛИРЕНСА</span>С ВОЗМОЖНОСТЬЮ РЕГУЛИРОВКИ И НОВЫЙ УРОВЕНЬ КОМФОРТА НА ПРЕЖНЕМ АВТОМОБИЛЕ</div>
                         <div class="block-1-content__image block-1-content__image_mobile"></div>
                         <ul class="list block-1-content__list">
                             <li class="list__item list__item_arrow">

@@ -1,7 +1,7 @@
 <section class="section section_block-list">
     <div class="section__wrapper">
         <div class="section__content-no-top">
-            <p class="section-title section-title_center">Cписок с моделями:</p>
+            <h2>Cписок с моделями:</h2>
             <div class="section__body">
                 <?php
                 if (!empty($models ))

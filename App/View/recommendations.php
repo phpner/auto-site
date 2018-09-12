@@ -1,7 +1,7 @@
 <section class="section section_block-13">
     <div class="section__wrapper section__wrapper_mobile-wrap">
         <div class="section__content">
-            <h3 class="section-title section-title_center">Рекомендации по эксплуатации</h3>
+            <h2>Рекомендации по эксплуатации</h2>
             <div class="section__body">
                 <div class="block-13">
                     <div class="block-13-content">

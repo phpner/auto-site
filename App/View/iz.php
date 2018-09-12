@@ -1,7 +1,7 @@
 <section class="section section_block-11">
     <div class="section__wrapper section__wrapper_mobile-wrap">
         <div class="section__content">
-            <h2 class="section-title section-title_center section-title_light">Избавьтесь от проблем, установив в пружины пневмобаллоны MRoad!</h2>
+            <h2>Избавьтесь от проблем, установив в пружины пневмобаллоны MRoad!</h2>
             <div class="section__body">
                 <div class="block-11">
                     <div class="block-11__card">

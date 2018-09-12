@@ -1,7 +1,7 @@
 <section class="section section_block-video">
     <div class="section__wrapper section__wrapper_video">
         <div class="section__content">
-            <h3 class="section-title section-title_center">Видео</h3>
+            <h2>Видео</h2>
             <div class="section__body">
                 <div class="block-video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/FLaMEs69bFk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

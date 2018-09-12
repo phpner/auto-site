@@ -1,7 +1,7 @@
 <section class="section section_block-8">
     <div class="section__wrapper section__wrapper_mobile-wrap">
         <div class="section__content">
-            <p class="section-title section-title_center section-title_light">Комплектация</p>
+            <h2>Комплектация</h2>
             <div class="section__body">
                 <div class="block-8-content">
                     <div class="block-8-content__kit-items">

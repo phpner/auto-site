@@ -1,7 +1,7 @@
 <section class="section section_block-2">
     <div class="section__wrapper">
         <div class="section__content">
-            <h2 class="section-title section-title_center">Проблемы с которыми вы сталкиваетесь!</h2>
+            <h2>Проблемы с которыми вы сталкиваетесь!</h2>
             <div class="block-2-content">
                 <div class="block-2-content__sliders">
                     <div class="slider-problems">

@@ -1,7 +1,7 @@
 <section class="section section_block-12">
     <div class="section__wrapper section__wrapper_mobile-wrap">
         <div class="section__content">
-            <p class="section-title section-title_center">Универсальность</p>
+            <h2>Универсальность</h2>
             <div class="section__body">
                 <div class="block-12">
                     <div class="block-12__column block-12__column_left">
@@ -14,12 +14,73 @@
                             <p class="block-12__content">универсальны и подходят на сотни моделей автомобилей как отечественного, так и импортного производства, в разные типы подвесок у которых внутреннее пространство пружины свободно. Универсальные пневмобаллоны MRoad подходят для установки во все типы пружин: цилиндр, конус, овал.</p>
                         </div>
                         <div class="block-12__article block-12__article_second">
-                            <p class="block-12__title"><span class="text text_allotted">Примеры автомобилей</span></p>
+                            <p class="block-12__title"><span class="text text_allotted">Марки автомобилей Audi</span></p>
                             <p class="block-12__subtitle"><span class="text text_allotted">на которые возможна установка пневмобаллонов MRoad:</span></p>
-                            <p class="block-12__content">KIA Sorento 2.5 TD, Chevrolet Aveo II, Hyundai Santa Fe, Mitsubishi Pajero Sport, Renault Logan, Suzuki SX4, Сузуки Гранд Витара, Skoda Octavia, Тойота бБ, Toyota Lite Ace Noah 4wd, Toyota Passo, KIA Cerato, Skoda Superb, Toyota Sienna, Kia Sportage, Ford Mondeo, Лада Ларгус, Hyundai Santa Fe 2006 г.в.</p>
+                            <p class="block-12__content">
+                                ГАЗзель
+                                УАЗ
+                                ВАЗ (ЛАДА)
+                                BMW (БМВ)
+                                Daewoo (Дэу)
+                                Mercedes (Мерседес)
+                                Mitsubishi (Митсубиси)
+                                Nissan (Ниссан)
+                                Renault (Рено)
+                                Ford (Форд)
+                                Volkswagen (Фольксваген)
+                                Hyundai (Хендай)
+                                Honda (Хонда)
+                                Skoda (Шкода)
+                                Chevrolet (Шевроле)
+                                Toyota (Тойота)
+                                Opel (Опель)
+                                Peugeot (Пежо)
+                                Porsche (Порше)
+                                Audi (Ауди)
+                                Suzuki (Сузуки)
+                                Subaru (Субару)
+                                Seat (Сеат)
+                                Fiat (Фиат)
+                                Geely (Джили)
+                                KIA (КИА)
+                                Volvo (Вольво)
+                                Mazda (Мазда)
+                                SsangYong (Саньенг)
+                                Citroen (Ситроен)
+                                Lifan (Лифан)
+                                Great Wall (Грейт Вол)
+                                Chery (Чери)
+                                Land Rover (Ленд Ровер)
+                                Lexus (Лексус)
+                                Infiniti (Инфинити)
+                                Jeep (Джип)
+                                FAW (ФАВ)
+                                Tagaz (ТагАЗ)
+                                и другие.
+                            </p>
                         </div>
                     </div>
-                    <div class="block-12__column block-12__column_right">
+
+                    <div class="block-12__article  block-12__article_list_model">
+                    <p class="block-12__title text text_allotted">Cписок с моделями:</p>
+                    <div class="section_block-list ">
+
+                        <?php
+                        if (!empty($models ))
+                        {
+                            require_once 'model-audi';
+
+                            foreach ( $list_model  as $link => $name)
+                            {
+                                ?>
+                                <a href='<?php echo $link;?>'><?php echo $name?>,</a>
+                            <?php }
+                        }
+                        ?>
+
+                    </div>
+                    </div>
+                   <!-- <div class="block-12__column block-12__column_right">
 
                         <div class="block-12__image-wrap">
                             <a href="audi.htm">

@@ -16,9 +16,7 @@ class PagesAuto extends MainController
     public function HomeAuto($param,$pr)
     {
 
-        $q = preg_replace('/%20/',' ',$param);
-
-        $sql = "SELECT * FROM pages WHERE slug =   '$q' ";
+        $sql = "SELECT * FROM pages WHERE slug =   '$param' ";
 
 
         $stmt = $this->db()->query( $sql) or die('Ошибка в запросе!');
@@ -34,12 +32,6 @@ class PagesAuto extends MainController
 
         if (!empty($res['id_model']))
         {
-            $list = $res['id_model'];
-            $sql = "SELECT * FROM auto_model WHERE id_model =  '$list' ";
-            $list_model = $this->db()->query( $sql) or die('Ошибка в запросе!');
-            $list_model = $list_model ->fetch(\PDO::FETCH_ASSOC);
-
-           $models = explode(",",unserialize($list_model['name']));
 
             return $this->getView('home-auto',$res, $models);
         }

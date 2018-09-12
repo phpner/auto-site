@@ -1,7 +1,7 @@
 <section class="section section_block-reviews">
     <div class="section__wrapper">
         <div class="section__content">
-            <p class="section-title section-title_center">Отзывы наших клиентов</p>
+            <h2>Отзывы наших клиентов</h2>
             <div class="section__body">
                 <div class="block-reviews">
                     <div class="block-reviews__slider">

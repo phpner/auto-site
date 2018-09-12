@@ -6,7 +6,7 @@
             </div>
             <div class="buff-and-text__column buff-and-text__column_text buff-and-text__column_background-mobile buff-and-text__column_block-10">
                 <div class="buff-and-text__column-content buff-and-text__column-content_text buff-and-text__column-content_text-padding">
-                    <p class="section-title">ЗАЩИТИ СВОЮ ПОДВЕСКУ НА СЛЕДУЮЩИЕ 5 ЛЕТ</p>
+                    <h2>ЗАЩИТИ СВОЮ ПОДВЕСКУ НА СЛЕДУЮЩИЕ 5 ЛЕТ</h2>
                     <p class="section-title section-title_subtitle">Установи баллоны MRoad</p>
                     <div class="price-and-button buff-and-text__price-and-button"><span class="price"><span class="price__old">от 2900 РУБ</span></span>
                         <div class="price-and-button__button">

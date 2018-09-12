@@ -36,7 +36,5 @@
             </div>-->
         </div>
     </div>
-    <div class="descrip-footer">
-        <?php echo $description2; ?>
-    </div>
+
 </section>
