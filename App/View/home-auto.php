@@ -44,11 +44,6 @@ require 'zachti.php';
 
 require_once 'unyver.php';
 
-/**
- * Список ссылок
- */
-
-require_once "list-model.php";
 
 /**
  * Установка пневмобаллонов

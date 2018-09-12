@@ -32,8 +32,9 @@ class PagesAuto extends MainController
 
         if (!empty($res['id_model']))
         {
+            $model = $res['id_model'];
 
-            return $this->getView('home-auto',$res, $models);
+            return $this->getView('home-auto',$res, $model);
         }
 
         return $this->getView('home-auto',$res);

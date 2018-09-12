@@ -1,7 +1,0 @@
-<?php
-
-return $list_model = [
-    'audi-100.html' => '100',
-    'audi-10-0C4.html' => '10 0C4',
-
-];
