@@ -3,6 +3,15 @@
         <div class="section__content-no-top">
             <p class="section-title section-title_center">Cписок с моделями:</p>
             <div class="section__body">
+                <?php
+                if (!empty($models ))
+                {
+                    foreach ( $models  as $kye)
+                    {
+                        echo $kye;
+                    }
+                }
+                ?>
                 <a href="100.html">100,</a>
                 <a href="100-C4.html">100 C4,</a>
                 <a href="80.html">80,</a>

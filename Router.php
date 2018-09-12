@@ -13,9 +13,17 @@ $router->set404(function () {
 $router->get('/', 'App\Controllers\Index@home');
 
 
-// Dynamic route: /hello/name
-$router->get('/hello/(\w+)', function ($name) {
-    echo 'Hello ' . htmlentities($name);
+
+$router->get('/prava.html', function () {
+
+    return require_once __DIR__."/App/View/prava.html";
+
+});
+
+$router->get('/politic.html', function () {
+
+    return require_once __DIR__."/App/View/politic.html";
+
 });
 
 // Dynamic route: /ohai/name/in/parts

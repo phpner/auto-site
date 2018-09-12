@@ -65,8 +65,10 @@ $(document).ready(function() {
 }), $(function() {
     $(".cap").fadeOut()
 }), $(function() {
+
     $(".logo");
-    $(".logo").click(function(o) {
+
+/*    $(".logo").click(function(o) {
         o.preventDefault();
         var n = $(this).attr("href");
         $(".cap").fadeIn(function() {
@@ -74,7 +76,7 @@ $(document).ready(function() {
                 path: "/"
             }), window.location.href = n
         })
-    })
+    })*/
 }), $(function() {
     function o(o) {
         var n = $(".menu"),

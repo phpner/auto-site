@@ -2,21 +2,6 @@
 <html lang="ru">
 
 <head>
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src = "https://www.googletagmanager.com/gtm.js?id=' + i + d";
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-5T9XT2R');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?php echo $description ?>">
@@ -92,7 +77,7 @@
     <section class="section section_menu">
         <div class="section__wrapper section__wrapper_menu">
             <nav class="menu">
-                <a class="logo logo_menu" href="/"></a>
+                <a class="logo logo_menu" href="/"></a> <span id="plus">+</span>
                 <img class="logo-2" src="/public/images/logo-2.png" alt="">
                 <div class="menu__header">
                     <button class="menu__toggle" toggle="false"><span class="menu__icon-bar"></span><span class="menu__icon-bar"></span><span class="menu__icon-bar"></span></button>
@@ -104,12 +89,12 @@
                         <li class="menu__item"><a class="menu__link" href="#" block="7">Установка</a></li>
                         <li class="menu__item"><a class="menu__link" href="#" block="8">Комплектация</a></li>
                         <li class="menu__item menu__item_last">
-                            <p class="phone"><span class="ion-ios-telephone-outline phone__icon"></span><span class="phone__phone-number">8 (800) 222-31-13</span></p>
+                            <p class="phone"><span class="ion-ios-telephone-outline phone__icon"></span><span class="phone__phone-number">+7 (812) 602-78-01</span></p>
                         </li>
                     </ul>
                     <div class="menu__bottom-text">
                         <div class="menu__phone">
-                            <p class="phone"><span class="ion-ios-telephone-outline phone__icon phone__icon_menu"></span><span class="phone__phone-number">8 (800) 222-31-13</span></p>
+                            <p class="phone"><span class="ion-ios-telephone-outline phone__icon phone__icon_menu"></span><span class="phone__phone-number">+7 (812) 602-78-01</span></p>
                         </div>
                         <p>info@mroad.company</p>
                     </div>

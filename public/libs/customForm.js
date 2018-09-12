@@ -1,5 +1,5 @@
 $(document).ready(function() {
-/*    (function(_, r, e, t, a, i, l) {
+/* (function(_, r, e, t, a, i, l) {
         _['retailCRMObject'] = a;
         _[a] = _[a] || function() {
             (_[a].q = _[a].q || []).push(arguments)
@@ -173,10 +173,10 @@ function phoneAntiSpam(phone) {
 }
 
 function sendForm(form, options, formData) {
-    _rc('send', 'order', {
+  /*  _rc('send', 'order', {
         'name': formData.name,
         'phone': formData.phone
-    });
+    });*/
     $.ajax({
         type: 'POST',
         url: options.url,

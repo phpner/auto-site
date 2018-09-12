@@ -8,13 +8,13 @@ class HanderErrors
      */
     public function errors($errror)
     {
-        require_once "/View/errors.php";
+        require_once __DIR__."/View/errors.php";
 
     }
     public function errors404()
     {
         header($_SERVER['SERVER_PROTOCOL'] . ' 404 Not Found');
-        require_once "/View/404.php";
+        require_once __DIR__."/View/404.php";
     }
 
 }

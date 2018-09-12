@@ -21,12 +21,12 @@
                 </div>
                 <div class="block-footer__column block-footer__column_right">
                     <p>Телефон горячей линии</p>
-                    <p class="phone"><span class="ion-ios-telephone-outline phone__icon"></span><span class="phone__phone-number">8 (800) 222-31-13</span></p>
+                    <p class="phone"><span class="ion-ios-telephone-outline phone__icon"></span><span class="phone__phone-number">+7 (812) 602-78-01</span></p>
                     <p><a class="block-footer__link" href="politic.html">Политика конфиденциальности</a></p>
                     <p><a class="block-footer__link" href="prava.html">Условия возврата</a></p>
                 </div>
             </div>
-            <div class="copyright">
+           <!-- <div class="copyright">
                 <div class="copyright__text">
                     <p>Copyright © 2018 All Rights Reserved.</p>
                 </div>
@@ -34,7 +34,7 @@
                     <p>Сайт создан</p>
                     <a href="../../futuremarkt.com/default.htm" target="_blank"><img src="/public/images/logofm.svg" alt="Логотип компании FutureMarkt"></a>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </section>

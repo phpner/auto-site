@@ -17,11 +17,14 @@ class MainController{
      * @return false|mixed|string
      * render view
      */
-    public function getView($name, $param)
+    public function getView($name, $param,$models = null)
     {
         if (file_exists(__DIR__.'/../View/'.$name.'.php'))
         {
             ob_start();
+
+            $models = !empty($models) ? $models : '';
+
 
             extract($param);
 
@@ -30,7 +33,8 @@ class MainController{
             return ob_get_clean();
 
         }else{
-            return (new \App\HanderErrors())->errors("Такого шаблона нет!!!");
+            $obj = new \App\HanderErrors();
+            return  $obj->errors("Такого шаблона нет!!!");
         }
     }
 
@@ -49,10 +53,12 @@ class MainController{
     }
     public function get404()
     {
-        return (new App\HanderErrors())->errors404();
+        $obj = new \App\HanderErrors();
+        return $obj->errors404();
     }
     public function getError($param)
     {
-        return (new App\HanderErrors())->errors($param);
+        $obj = new \App\HanderErrors();
+        return $obj->errors($param);
     }
 }
