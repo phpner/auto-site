@@ -62,6 +62,27 @@ h2{
     font-family: serif;
     padding-bottom: 10px;
 }
+.block-12__article_second .block-12__subtitle{
+    margin-bottom: 3px;;
+    display: block;
+}
+.block-12 .logo-modeles{
+    margin-top: 20px;
+}
+
+.block-footer__logo-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    width: 260px;
+    margin: auto;
+}
+.block-footer__logo-wrap .text-under-logo{
+    flex: 100%;
+    margin-bottom: 5px;
+
+}
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
@@ -70,8 +91,11 @@ h2{
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
+@media only screen and (max-width : 900px) {
+    .block-12__button-wrap{
+        margin-top: 22px;
+        margin-bottom: -11px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -87,6 +111,9 @@ h2{
 
     .section__body .block-video {
         height: 155px;
+    }
+    h2{
+        font-size: 27px;
     }
 
 }

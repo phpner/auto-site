@@ -13,20 +13,16 @@
                             <p class="block-12__title"><span class="text text_allotted">Пневмоподушки MRoad</span></p>
                             <p class="block-12__content">универсальны и подходят на сотни моделей автомобилей как отечественного, так и импортного производства, в разные типы подвесок у которых внутреннее пространство пружины свободно. Универсальные пневмобаллоны MRoad подходят для установки во все типы пружин: цилиндр, конус, овал.</p>
                         </div>
-
-                        <?php  if (!empty($models) && file_exists(__DIR__.DIRECTORY_SEPARATOR.$models.".php")): ?>
-
+                        <!--прячем блок на страницах моделий-->
+                        <?php if ($models != "hide"):?>
                         <div class="block-12__article block-12__article_second">
                             <p class="block-12__title"><span class="text text_allotted"><?php echo  !empty($title_universal) ?  $title_universal : 'Марки автомобилей'?></span></p>
                             <p class="block-12__subtitle">
                                 <span class="text text_allotted">на которые возможна установка пневмобаллонов MRoad:</span></p>
-                            <p class="block-12__content">
-
-                                <!--Если есть модели к данной странице и если есть файл - подключаем файл с моделями! название из базы,  поле id_model  -->
-
+                            <!--Если есть модели к данной странице и если есть файл - подключаем файл с моделями! название файла из базы ,  поле id_model  -->
+                            <?php  if (!empty($models) && file_exists(__DIR__.DIRECTORY_SEPARATOR.$models.".php")): ?>
                             <div class="block-12__article_list_model">
                             <div class="section_block-list ">
-
                                 <?php
                                 /*Подключаем файл - название из базы  поле id_model*/
                                 $fileName = trim($models);
@@ -39,16 +35,63 @@
 
                             </div>
                         </div>
-                            </p>
-                        </div>
+                            <?php endif; ?>
+                            <!--Конец есть модели к данной странице... -->
 
+                            <?php if (empty($models)): ?>
+                                <p class="block-12__content">
+                                    ГАЗзель
+                                    УАЗ
+                                    ВАЗ (ЛАДА)
+                                    BMW (БМВ)
+                                    Daewoo (Дэу)
+                                    Mercedes (Мерседес)
+                                    Mitsubishi (Митсубиси)
+                                    Nissan (Ниссан)
+                                    Renault (Рено)
+                                    Ford (Форд)
+                                    Volkswagen (Фольксваген)
+                                    Hyundai (Хендай)
+                                    Honda (Хонда)
+                                    Skoda (Шкода)
+                                    Chevrolet (Шевроле)
+                                    Toyota (Тойота)
+                                    Opel (Опель)
+                                    Peugeot (Пежо)
+                                    Porsche (Порше)
+                                    Audi (Ауди)
+                                    Suzuki (Сузуки)
+                                    Subaru (Субару)
+                                    Seat (Сеат)
+                                    Fiat (Фиат)
+                                    Geely (Джили)
+                                    KIA (КИА)
+                                    Volvo (Вольво)
+                                    Mazda (Мазда)
+                                    SsangYong (Саньенг)
+                                    Citroen (Ситроен)
+                                    Lifan (Лифан)
+                                    Great Wall (Грейт Вол)
+                                    Chery (Чери)
+                                    Land Rover (Ленд Ровер)
+                                    Lexus (Лексус)
+                                    Infiniti (Инфинити)
+                                    Jeep (Джип)
+                                    FAW (ФАВ)
+                                    Tagaz (ТагАЗ)
+                                    и другие.
+                                </p>
+                            <?php endif;?>
+                        </div>
+                        <!-- Конец - прячем блок на страницах моделий-->
                         <?php endif; ?>
+
+
                         <!--Еонец блока if-->
                     </div>
-                     <div class="block-12__column block-12__column_right">
-
-                         <!--Выводим лого если нет моделей -->
-                         <?php if (empty($models)): ?>
+                     <div class="block-12__column block-12__column_right logo-modeles">
+                     <!--Выводим лого если нет моделей -->
+                     <?php if (empty($models)): ?>
 
                        <div class="block-12__image-wrap">
                            <a href="audi.htm">

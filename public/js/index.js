@@ -57,7 +57,7 @@ $(document).ready(function() {
         prevArrow: o.find(".block-6-arrows__arrow_prev"),
         nextArrow: o.find(".block-6-arrows__arrow_next"),
         dots: !1,
-        infinite: !1,
+        infinite: true,
         arrows: !0,
         fade: !0
     }).on("beforeChange", function(n, e, t, r) {
@@ -166,11 +166,28 @@ $(document).ready(function() {
     var waypoints = $('.slider').waypoint({
         handler: function(direction) {
 
+            if (direction == "down") {
+                console.log(this);
                 $($(this.element).find('.slick-initialized')).slick('slickPlay');
+            }
+
+            this.destroy()
 
         },
-        offset: '90%'
+        offset: '100%'
+
     });
+
+/*    $(window).scroll(function () {
+        if ($(this).scrollTop() > 0) {
+            $('#scroller').fadeIn();
+        } else {
+            $('#scroller').fadeOut();
+        }});
+
+    $('#scroller').click(function () {
+        $('body,html').animate({scrollTop: 0}, 400); return false;
+    });*/
 
 
 });

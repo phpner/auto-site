@@ -127,7 +127,9 @@ body {
 
 .block-12__button-wrap {
   text-align: center;
-  margin-top: 80px
+  margin-top: 50px;
+  margin-bottom: -23px;
+  overflow: hidden;
 }
 
 .block-13-content__scale, .block-13-content__slider {
@@ -1603,6 +1605,7 @@ body {
     display: inline-block;
     vertical-align: top;
     margin: 0;
+    margin-top: 24px;
     padding: 0
   }
   .block-12__article_first {
@@ -1786,7 +1789,7 @@ body {
   .menu #plus{
     margin-left: 40px!important;
     font-size: 24px;
-    color: #48c3cf;
+    color: #0e2f50;
     font-weight: bold;
   }
   .menu__items-wrap {

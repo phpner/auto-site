@@ -9,7 +9,11 @@
                     <p>Время работы: ежедневно с 09.00 - 20.00</p>
                 </div>
                 <div class="block-footer__column block-footer__column_middle block-footer__column_desktop">
-                    <div class="block-footer__logo-wrap"><img class="logo" src="/public/images/logo-2.png" alt="" role="presentation" /></div>
+                    <div class="block-footer__logo-wrap">
+                        <a class="logo logo_menu" href="/"></a> <span id="plus">+</span>
+                        <img class="logo" src="/public/images/logo-2.png" alt="" role="presentation" />
+                        <p class="text-under-logo">Официальный представитель компании  в Санкт-Петербурге.</p>
+                    </div>
                     <p>
                         <a href="https://vk.com/avtoservis_sto_spb" target="_blank"><img src="/public/images/vk.svg" alt=""></a>
                         <a href="https://facebook.com/mroad.russia" target="_blank"><img src="/public/images/face.svg" alt=""></a>
