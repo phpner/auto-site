@@ -1,20 +1,4 @@
 $(document).ready(function() {
-/* (function(_, r, e, t, a, i, l) {
-        _['retailCRMObject'] = a;
-        _[a] = _[a] || function() {
-            (_[a].q = _[a].q || []).push(arguments)
-        };
-        _[a].l = 1 * new Date();
-        l = r.getElementsByTagName(e)[0];
-        i = r.createElement(e);
-        i.async = !0;
-        i.src = t;
-        l.parentNode.insertBefore(i, l)
-    })(window, document, 'script', 'https://collector.retailcrm.pro/w.js', '_rc');
-
-    _rc('create', 'RC-76095149248-26');
-
-    _rc('send', 'pageView');*/
 
     var options = {
         form: 'form',

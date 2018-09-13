@@ -1,6 +1,6 @@
 <?php
 /*Название и ссылки на модели*/
-return $list_model = [
+return $list_model = array(
     'audi-100.html' => '100',
     'audi-10-0C4.html' => '10 0C4',
     'audi-80.html' => '80',
@@ -53,5 +53,5 @@ return $list_model = [
     'audi-V8.html' => 'V8',
     'audi-quattro.html' => 'quattro',
 
-];
+);
 

@@ -7,7 +7,7 @@
                     <div class="slider-problems">
                         <div class="slider-problems__tabs"><a class="slider-problems__tab" tabIndex="0"><span class="text text_allotted">В ГОРОДЕ</span></a><a class="slider-problems__tab slider-problems__tab_active" tabIndex="1"><span class="text text_allotted">ПРОСЕВШИЕ ПРУЖИНЫ</span></a><a class="slider-problems__tab" tabIndex="2"><span class="text text_allotted">ПРИРОДА/БЕЗДОРОЖЬЕ</span></a></div>
                         <p class="slider-problems__label-result"><span class="section-title">как результат:</span></p>
-                        <div class="slider slider-problems__slider" show-slides="3">
+                        <div class="slider slider-problems__slider" id="slider-1" show-slides="3">
                             <div class="slider__items">
                                 <div class="slider__item">
                                     <div class="problem-element">

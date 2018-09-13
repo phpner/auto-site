@@ -107,7 +107,7 @@
                 <div class="block-1">
                     <div class="block-1-content">
                         <div class="block-1-content__title">
-                            <h1 class="title-product text"><?php echo $h1 ?></h1>
+                            <h1><?php echo $h1 ?></h1>
                             <?php if ($description2){?>
                                 <p class="descrip-footer">
                                     <?php echo $description2; ?>

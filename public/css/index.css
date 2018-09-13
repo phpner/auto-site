@@ -1318,7 +1318,7 @@ body {
   left: 0;
   right: 0;
   top: 370px;
-  z-index: 1
+  z-index: -1
 }
 
 .text_allotted {
@@ -1395,7 +1395,7 @@ body {
   background-image: url(../images/slider/arrow-prev.png)
 }
 
-.slider__arrow_prev:not(.slider__arrow_stop):hover {
+.slider__arrow_prev:hover {
   background-image: url(../images/slider/arrow-prev-hover.png)
 }
 
@@ -1404,7 +1404,7 @@ body {
   background-image: url(../images/slider/arrow-next.png)
 }
 
-.slider__arrow_next:not(.slider__arrow_stop):hover {
+.slider__arrow_next:hover {
   background-image: url(../images/slider/arrow-next-hover.png)
 }
 
