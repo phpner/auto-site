@@ -39,4 +39,8 @@ class PagesAuto extends MainController
 
         return $this->getView('home-auto',$res);
     }
+    public function HomeMarki()
+    {
+
+    }
 }
