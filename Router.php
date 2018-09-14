@@ -33,7 +33,7 @@ $router->get('thankYou.html', function () {
 });
 
 // Страницы марок и моделей
-$router->get('/(.*).(htm|html|php)$', 'App\Controllers\PagesAuto@HomeAuto');
+$router->get('/page/(.*).(htm|html|php)$', 'App\Controllers\PagesAuto@HomeAuto');
 
 
 

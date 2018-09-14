@@ -2,11 +2,11 @@
 /**
  * шабка
  */
-require_once  "top.php";
+require_once "top.php";
 /**
  * Проблемы
  */
-require_once  "prob.php";
+require_once "prob.php";
 
 /**
  * Избавьтесь от проблем..

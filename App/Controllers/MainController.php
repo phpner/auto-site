@@ -17,7 +17,7 @@ class MainController{
      * @return false|mixed|string
      * render view
      */
-    public function getView($name, $param,$models = null)
+    public function getView($name, $param = array(),$models = null)
     {
         if (file_exists(__DIR__.'/../View/'.$name.'.php'))
         {

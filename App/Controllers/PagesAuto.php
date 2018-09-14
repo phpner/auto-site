@@ -16,8 +16,9 @@ class PagesAuto extends MainController
     public function HomeAuto($param,$pr)
     {
 
-        $sql = "SELECT * FROM pages WHERE slug =   '$param' ";
+        var_dump($param);
 
+        $sql = "SELECT * FROM page WHERE slug =   $param ";
 
         $stmt = $this->db()->query( $sql) or die('Ошибка в запросе!');
 

@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="<?php echo $description ?>">
-    <meta name="keywords" content="<?php echo $keywords?>">
-    <title><?php echo $title?></title>
+    <meta name="description" content="Пневмобаллоны в пружины от MRoad – это доступный аналог пневматической подвески. Здесь вы можете купить пневмобаллоны в пружины для защиты задней подвески и роста клиренса.">
+    <meta name="keywords" content="пневмобаллоны, купить пневмобаллоны, пневмобаллоны в пружины, купить пневмобаллоны в пружины, mroad">
+    <title>Купить пневмобаллоны в пружины MRoad по цене начала продаж</title>
 
     <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
@@ -107,12 +107,11 @@
                 <div class="block-1">
                     <div class="block-1-content">
                         <div class="block-1-content__title">
-                            <h1><?php echo $h1 ?></h1>
-                            <?php if ($description2){?>
+                            <h1>ПНЕВМОБАЛЛОНЫ В ПРУЖИНЫ  ОТ MROAD</h1>
                                 <p class="descrip-footer">
-                                    <?php echo $description2; ?>
+
                                 </p>
-                            <?php }?>
+
                             - ЭТО <span class="text text_allotted text_allotted-background">УВЕЛИЧЕНИЕ КЛИРЕНСА</span>С ВОЗМОЖНОСТЬЮ РЕГУЛИРОВКИ И НОВЫЙ УРОВЕНЬ КОМФОРТА НА ПРЕЖНЕМ АВТОМОБИЛЕ</div>
                         <div class="block-1-content__image block-1-content__image_mobile"></div>
                         <ul class="list block-1-content__list">
@@ -548,39 +547,15 @@
                     <div class="block-12">
                         <div class="block-12__column block-12__column_left">
                             <div class="block-12__article block-12__article_first">
-                                <?php
-                                if (isset($img_path)) {
-                                    echo "<img class='logo-in-models' src='$img_path'' alt=''>";
-                                } ?>
                                 <p class="block-12__title"><span class="text text_allotted">Пневмоподушки MRoad</span></p>
                                 <p class="block-12__content">универсальны и подходят на сотни моделей автомобилей как отечественного, так и импортного производства, в разные типы подвесок у которых внутреннее пространство пружины свободно. Универсальные пневмобаллоны MRoad подходят для установки во все типы пружин: цилиндр, конус, овал.</p>
                             </div>
-                            <!--прячем блок на страницах моделий-->
-                            <?php if ($models != "hide"):?>
+
                                 <div class="block-12__article block-12__article_second">
-                                    <p class="block-12__title"><span class="text text_allotted"><?php echo  !empty($title_universal) ?  $title_universal : 'Марки автомобилей'?></span></p>
+                                    <p class="block-12__title"><span class="text text_allotted">Марки автомобилей</span></p>
                                     <p class="block-12__subtitle">
                                         <span class="text text_allotted">на которые возможна установка пневмобаллонов MRoad:</span></p>
                                     <!--Если есть модели к данной странице и если есть файл - подключаем файл с моделями! название файла из базы ,  поле id_model  -->
-                                    <?php  if (!empty($models) && file_exists(__DIR__.DIRECTORY_SEPARATOR.$models.".php")): ?>
-                                        <div class="block-12__article_list_model">
-                                            <div class="section_block-list ">
-                                                <?php
-                                                /*Подключаем файл - название из базы  поле id_model*/
-                                                $fileName = trim($models);
-                                                require_once __DIR__.DIRECTORY_SEPARATOR.$fileName.".php";
-
-                                                foreach ( $list_model  as $link => $name)
-                                                {
-                                                    echo "<a href='$link'>$name ,</a>";
-                                                }  ?>
-
-                                            </div>
-                                        </div>
-                                    <?php endif; ?>
-                                    <!--Конец есть модели к данной странице... -->
-
-                                    <?php if (empty($models)): ?>
                                         <p class="block-12__content">
                                             ГАЗзель
                                             УАЗ
@@ -623,223 +598,214 @@
                                             Tagaz (ТагАЗ)
                                             и другие.
                                         </p>
-                                    <?php endif;?>
                                 </div>
-                                <!-- Конец - прячем блок на страницах моделий-->
-                            <?php endif; ?>
 
-
-                            <!--Еонец блока if-->
                         </div>
                         <div class="block-12__column block-12__column_right logo-modeles">
-                            <!--Выводим лого если нет моделей -->
-                            <?php if (empty($models)): ?>
 
                                 <div class="block-12__image-wrap">
-                                    <a href="audi.htm">
+                                    <a href="/page/audi.htm">
                                         <img src="/public/images/logo-auto/audi.jpg" alt="" role="audi"  role="presentation"/>
                                     </a>
 
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="bmw.htm">
+                                    <a href="/page/bmw.htm">
                                         <img src="/public/images/logo-auto/bmw.jpg" alt="" role="bmw" role="presentation"/>
                                     </a>
 
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="chery.htm">
+                                    <a href="/page/chery.htm">
                                         <img src="/public/images/logo-auto/chery.jpg" alt="" role="chery" />
                                     </a>
 
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="chevrolet.htm">
+                                    <a href="/page/chevrolet.htm">
                                         <img src="/public/images/logo-auto/chevrolet.jpg" alt="" role="chevrolet" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="citroen.htm">
+                                    <a href="/page/citroen.htm">
                                         <img src="/public/images/logo-auto/citroen.jpg" alt="" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="daewoo.htm">
+                                    <a href="/page/daewoo.htm">
                                         <img src="/public/images/logo-auto/daewoo.jpg" alt="daewoo" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="faw.htm">
+                                    <a href="/page/faw.htm">
                                         <img src="/public/images/logo-auto/faw.jpg" alt="faw" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="ford.htm">
+                                    <a href="/page/ford.htm">
                                         <img src="/public/images/logo-auto/ford.jpg" alt="ford" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="fiat.htm">
+                                    <a href="/page/fiat.htm">
                                         <img src="/public/images/logo-auto/fiat.jpg" alt="fiat" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="gaz.htm">
+                                    <a href="/page/gaz.htm">
                                         <img src="/public/images/logo-auto/gaz.jpg" alt="gaz" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="geely.htm">
+                                    <a href="/page/geely.htm">
                                         <img src="/public/images/logo-auto/geely.jpg" alt="geely" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="great-wall.htm">
+                                    <a href="/page/great-wall.htm">
                                         <img src="/public/images/logo-auto/great-wall.jpg" alt="great-wall" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="honda.htm">
+                                    <a href="/page/honda.htm">
                                         <img src="/public/images/logo-auto/honda.jpg" alt="honda" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="hyundai.htm">
+                                    <a href="/page/hyundai.htm">
                                         <img src="/public/images/logo-auto/hyundai.jpg" alt="hyundai" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="infiniti.htm">
+                                    <a href="/page/infiniti.htm">
                                         <img src="/public/images/logo-auto/infiniti.jpg" alt="infiniti" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="jeep.htm">
+                                    <a href="/page/jeep.htm">
                                         <img src="/public/images/logo-auto/jeep.jpg" alt="jeep" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="kia.htm">
+                                    <a href="/page/kia.htm">
                                         <img src="/public/images/logo-auto/kia.jpg" alt="kia" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="lada.htm">
+                                    <a href="/page/lada.htm">
                                         <img src="/public/images/logo-auto/lada.jpg" alt="lada" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="land-rover.htm">
+                                    <a href="/page/land-rover.htm">
                                         <img src="/public/images/logo-auto/land-rover.jpg" alt="land-rover" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="lexus.htm">
+                                    <a href="/page/lexus.htm">
                                         <img src="/public/images/logo-auto/lexus.jpg" alt="lexus" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="lifan.htm">
+                                    <a href="/page/lifan.htm">
                                         <img src="/public/images/logo-auto/lifan.jpg" alt="lifan" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="mazda.htm">
+                                    <a href="/page/mazda.htm">
                                         <img src="/public/images/logo-auto/mazda.jpg" alt="mazda" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="mercedes.htm">
+                                    <a href="/page/mercedes.htm">
                                         <img src="/public/images/logo-auto/mercedes.jpg" alt="mercedes" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="mitsubishi.htm">
+                                    <a href="/page/mitsubishi.htm">
                                         <img src="/public/images/logo-auto/mitsubishi.jpg" alt="mitsubishi" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="nissan.htm">
+                                    <a href="/page/nissan.htm">
                                         <img src="/public/images/logo-auto/nissan.jpg" alt="nissan" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="opel.htm">
+                                    <a href="/page/opel.htm">
                                         <img src="/public/images/logo-auto/opel.jpg" alt="opel" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="peugeot.htm">
+                                    <a href="/page/peugeot.htm">
                                         <img src="/public/images/logo-auto/peugeot.jpg" alt="peugeot" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="porsche.htm">
+                                    <a href="/page/porsche.htm">
                                         <img src="/public/images/logo-auto/porsche.jpg" alt="porsche" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="renault.htm">
+                                    <a href="/page/renault.htm">
                                         <img src="/public/images/logo-auto/renault.jpg" alt="renault" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="seat.htm">
+                                    <a href="/page/seat.htm">
                                         <img src="/public/images/logo-auto/seat.jpg" alt="seat" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="skoda.htm">
+                                    <a href="/page/skoda.htm">
                                         <img src="/public/images/logo-auto/skoda.jpg" alt="skoda" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="ssangyong.htm">
+                                    <a href="/page/ssangyong.htm">
                                         <img src="/public/images/logo-auto/ssangyong.jpg" alt="ssangyong" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="subaru.htm">
+                                    <a href="/page/subaru.htm">
                                         <img src="/public/images/logo-auto/subaru.jpg" alt="subaru" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="suzuki.htm">
+                                    <a href="/page/suzuki.htm">
                                         <img src="/public/images/logo-auto/suzuki.jpg" alt="suzuki" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="tagaz.htm">
+                                    <a href="/page/tagaz.htm">
                                         <img src="/public/images/logo-auto/tagaz.jpg" alt="tagaz" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="toyota.htm">
+                                    <a href="/page/toyota.htm">
                                         <img src="/public/images/logo-auto/toyota.jpg" alt="toyota" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="uaz.htm">
+                                    <a href="/page/uaz.htm">
                                         <img src="/public/images/logo-auto/uaz.jpg" alt="uaz" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="vaz.htm">
+                                    <a href="/page/vaz.htm">
                                         <img src="/public/images/logo-auto/vaz.jpg" alt="vaz" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="volkswagen.htm">
+                                    <a href="/page/volkswagen.htm">
                                         <img src="/public/images/logo-auto/volkswagen.jpg" alt="volkswagen" role="" />
                                     </a>
                                 </div>
                                 <div class="block-12__image-wrap">
-                                    <a href="volvo.htm">
+                                    <a href="/page/volvo.htm">
                                         <img src="/public/images/logo-auto/volvo.jpg" alt="volvo" role="" />
                                     </a>
                                 </div>
-                            <?php endif; ?>
-
 
                         </div>
                         <div class="block-12__button-wrap">
@@ -1247,6 +1213,18 @@
     </section>
 
 
-<?php
-require_once 'footer.php';
-?>
+    <!-- END div of body-wrap-->
+</div>
+<!-- END div of body-wrap-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+<script type="text/javascript" src="/public/js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="/public/js/index.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.3/jquery.inputmask.bundle.min.js"></script>
+<script type="text/javascript" src="/public/libs/customForm.js"></script>
+
+</body>
+
+</html>
